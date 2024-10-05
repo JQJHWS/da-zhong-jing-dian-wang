@@ -1,0 +1,182 @@
+/* 设置主题背景颜色 */
+body
+{
+    background: rgba(27, 167, 132, 0.3);
+	margin: 0px auto;
+}
+/* 设置导航栏的背景颜色 */
+nav
+{
+	background: rgba(242, 231, 229, 0.9);
+}
+/* 设置导航栏的样式 */
+.nav-ul1
+{
+	color: rgba(240, 148, 93, 0.8);
+	/* 设置隐藏标识符 */
+	list-style-type: none;
+	/* 加粗文字 */
+	font-weight: bold;
+}
+/* 底部导航栏 */
+.nav-ul2
+{
+	/* 加粗文字 */
+	font-weight: bold;
+	color: rgba(146, 179, 165, 0.6);
+	height: 60px;
+	/* 条目横放 */
+	display: flex;
+	/* 设置隐藏标识符 */
+	list-style-type: none;
+}
+.nav-li1
+{
+	
+	font-size: 20px;
+	/* 设置条目边距 */
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.nav-li2
+{
+	font-size: 15px;
+	/* 设置条目边距 */
+	margin-right: 80px;
+	margin-left: 80px;
+}
+/* 设置导航栏第一个条目的与边缘的距离 */
+nav>ul:first-child
+{
+	margin-left: 2%;
+}
+/* 设置导航栏最后一个条目的与边缘的距离 */
+nav>ul:last-child
+{
+	margin-right: 2%;
+}
+a
+{
+	color: rgba(240, 148, 93, 0.8);
+	line-height: 10px;
+	text-decoration: none;
+}
+/* 设置超链接未激活时的颜色 */
+a:link
+{
+	color: rgba(240, 148, 93, 0.8);
+}
+/* 设置悬浮在超链接上时超链接的颜色 */
+a:hover
+{
+	color: rgba(248, 107, 29, 0.9);
+}
+/* 设置超链接激活时的颜色 */
+a:active
+{
+	color: rgba(240, 148, 93, 0.8);
+}
+.div1
+{
+	font-size: 50px;
+	text-align: center;
+	color: rgba(240, 148, 93, 0.8);
+	background: rgba(242, 231, 229, 0.9);
+	/* 设置字体 */
+	font-family: "黑体";
+	height: 100px;
+}
+.div2
+{
+	margin-left: 110px;
+	font-size: 50px;
+	text-align: center;
+	color: rgba(240, 148, 93, 0.8);
+	/* 设置字体 */
+	font-family: "黑体";
+	height: 60px;
+	display: flex;
+}
+/* 用于设置段落hover效果 */
+.div3
+{
+	height: 200px;
+	/* 如果样式发生改变会有过渡效果 */
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+.div3:hover
+{
+	background: rgba(247, 207, 186, 0.7);
+}
+/* 容器CSS */
+/* 设置垂直居中 */
+.container1 
+{
+	/* 横着显示内容 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* 设置容器高度 */
+}
+.container2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* 设置容器高度 */
+}
+.container3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* 设置容器高度 */
+}
+/* 图片盒子 */
+.div-img
+{
+	height: 100px;
+}
+/* 消除图片空隙 */
+img
+{
+	vertical-align: middle;
+	/* 调整图片位置 */
+	margin-top: -16px; /* 根据需要调整负值大小 */
+}
+/* 图片鼠标悬停效果 */
+.img1
+{
+	width: 300px;
+	vertical-align: middle;
+	margin-top: -16px; /* 根据需要调整负值大小 */
+	/* 如果样式发生改变会有过渡效果 */
+	transition: transform 0.3s ease-in-out; /* 定义过渡效果 */
+}
+.img1:hover
+{
+	transform: scale(1.1); /* 放大到原始尺寸的 1.5 倍 */  
+}
+/* 设置每个网页底部的联系方式文字的样式 */
+.div5
+{
+	color: rgba(146, 179, 165, 0.6);
+	margin: 10px;
+	text-align: center;
+}
+/* 新闻段落设置 */
+/* 标题颜色 */
+.h
+{
+	color: rgba(240, 148, 93, 0.8);
+}
+.p1
+{
+	text-indent: 2em;
+	line-height: 20px;
+}
+/* 段落颜色 */
+.p2
+{
+	color: rgba(240, 148, 93, 0.5);
+}

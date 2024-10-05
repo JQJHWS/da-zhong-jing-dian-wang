@@ -1,0 +1,16 @@
+.div4
+{
+	color: rgba(146, 179, 165, 1.0);
+	text-align: center;
+}
+/* 合作伙伴图片设置 */
+.img2
+{
+	width: 15%;
+	align-items: center;
+	margin: 25px;
+}
+.img2:hover
+{
+	transform: scale(1.1); /* 放大到原始尺寸的 1.1 倍 */  
+}

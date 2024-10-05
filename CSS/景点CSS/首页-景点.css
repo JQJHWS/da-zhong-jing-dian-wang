@@ -1,0 +1,11 @@
+img
+{
+    margin-top: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+/* 设置主题背景颜色 */
+body
+{
+    background: rgba(143, 178, 201, 0.3);
+}

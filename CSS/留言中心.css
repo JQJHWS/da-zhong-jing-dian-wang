@@ -1,0 +1,57 @@
+/* 设置联系方式样式 */
+.container5
+{
+	width: 20%;
+	color: rgba(110, 139, 116, 0.8);
+	font-size: 20px;
+	align-items: center;
+	display: flex;
+	line-height: 60px;
+}
+/* 信息框大小设置 */
+.input-0
+{
+	height: 20px;
+}
+/* 留言框大小设置 */
+.input-1
+{
+	width: 95%;
+	height: 300px;
+}
+/* 提交按钮位置设置 */
+.div5
+{
+	text-align: center;
+}
+/* 文本框提示文字设置 */
+.div6
+{
+	color: rgba(240, 148, 93, 0.8);
+	font-size: 20px;
+}
+/* 提交按钮大小,以及文字设置 */
+.button1
+{
+	width: 30%;
+	height: 50px;
+	color: rgba(240, 148, 93, 0.8);
+	font-size: 30px;
+}
+/* 控制按钮间距以控制布局 */
+/* 此处选中的是使用div5类选择器的div标签的第一个儿子input标签 */
+div.div5>input:first-child
+{
+	margin-right: 188px;
+}
+/* 此处选中的是使用div5类选择器的div标签的最后一个儿子input标签 */
+div.div5>input:last-child
+{
+	margin-left: 188px;
+}
+
+/* 设置文本框自动从左上角输入 */
+textarea
+{
+	vertical-align: top;
+}

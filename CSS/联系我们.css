@@ -1,0 +1,11 @@
+/* 设置联系方式文字效果 */
+.container4
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: rgba(146, 179, 165, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* 设置容器高度 */
+}
